@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+  
+}
+#t01 td {
+  background-color: Red;
+  color: white;
+  
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+<table id="t01">
+<caption><h2>Device Table</h2></caption>
+  <tr>
+    <th>Device Name</th>
+    <th>Status</th> 
+    <th>Input</th>
+  </tr>
+  <tr>
+    <td>Esp32</td>
+    <td>On</td>
+    <form action="/">
+    <td> <input type="text"><input type="submit" value="Submit"></td>
+    </form>
+  </tr>
+  <tr>
+    <td>CC3200</td>
+    <td>On</td>
+    <form action="/">
+    <td> <input type="text">
+    <input type="submit" value="Submit"></td>
+    </form>
+  </tr>
+  <tr>
+    <td>Arduino</td>
+    <td>On</td>
+    <form action="/">
+    <td> <input type="text">
+    <input type="submit" value="Submit"></td>
+    </form>
+  </tr>
+</table>
+
+</body>
+</html>

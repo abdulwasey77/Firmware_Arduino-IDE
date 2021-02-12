@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>WIFI Configuration</h2>
+
+<form action="/get">
+  <label for="SSID">SSID:</label><br>
+  <input type="text" id="SSID" name="SSID"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+
+</body>
+</html>
